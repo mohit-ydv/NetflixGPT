@@ -16,3 +16,6 @@
     - Search Bar
     - Movie Suggestions
     
+# Firebase : Hosting & deployment of app
+Project Console: https://console.firebase.google.com/project/netflixgpt-eae2c/overview
+Hosting URL: https://netflixgpt-eae2c.web.app
