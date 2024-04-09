@@ -13,7 +13,8 @@ const GptSearchBar = () => {
   const handleGptSearchClick = async () => {
     // Make an api call to GPT Api and get Movie results
     const gptQuery =
-      "Act as a Movie recommendation system and suggest 5 movies(in comma seperated names, do not add bullets/numbers as sequence) for the query :" +
+      "Act as a Movie recommendation system and suggest 5 movies(in comma seperated names," +
+      "do not add bullets/numbers as sequence) for the query :" +
       searchText.current.value;
     const gptResults = await openai.chat.completions.create({
       messages: [{ role: "user", content: gptQuery }],
